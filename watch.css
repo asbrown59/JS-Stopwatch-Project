@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5cb2e8;
+}
+H1{
+    font-family: Saira Stencil;
+    font-weight: 600px;
+    font-size: 50px;
+}
+#myh1{
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: tomato;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black solid 5px;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: rgb(240, 223, 201);
+}
+#display{
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(236, 48, 48);
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: black solid 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(17, 8, 8);
+    transition: baclground-color 0.5s ease;
+}
+#startbtn{
+    background-color: rgb(24, 146, 50);
+}
+#startbtn:hover{
+    background-color: rgb(57, 241, 97);
+}
+#stopbtn{
+    background-color: rgb(217, 77, 21);
+}
+#stopbtn:hover{
+    background-color: rgb(242, 141, 79);
+    ;
+}
+#resetbtn{
+    background-color: rgb(230, 216, 23);
+}
+#resetbtn:hover{
+   background-color: rgb(247, 247, 124)
+}
+#log {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#logList {
+    list-style: none;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#logList li {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
